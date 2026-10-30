@@ -1,0 +1,10 @@
+{
+"email": "البريد الالكتروني",
+  "password": "كلمة المرور",
+  "nameHint": "ادخل اسمك بالكامل",
+  "full_name": "الاسم الكامل",
+  "password_confirmation": "تأكيد كلمة المرور",
+  "emailHint": "ادخل البريد الإلكتروني",
+  "passwordHint": "ادخل كلمة المرور",
+  "passConfirmHint": "أعد كتابة كلمة المرور"
+}

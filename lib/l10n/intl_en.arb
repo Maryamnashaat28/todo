@@ -1,0 +1,10 @@
+{
+"email": "Email Address",
+  "password": "Password",
+  "nameHint": "Enter your full name",
+  "emailHint": "Enter your Email Address",
+  "passwordHint": "Enter your password",
+  "passConfirmHint": "Confirm your password",
+  "full_name": "Full Name",
+  "password_confirmation": "Password Confirmation"
+}

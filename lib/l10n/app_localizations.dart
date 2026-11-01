@@ -145,6 +145,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Password Confirmation'**
   String get password_confirmation;
+
+  /// No description provided for @welcome.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back'**
+  String get welcome;
+
+  /// No description provided for @loginText.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in to continue managing your daily\nflow and tasks.'**
+  String get loginText;
 }
 
 class _AppLocalizationsDelegate

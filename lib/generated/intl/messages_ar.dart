@@ -26,6 +26,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "emailHint":
             MessageLookupByLibrary.simpleMessage("ادخل البريد الإلكتروني"),
         "full_name": MessageLookupByLibrary.simpleMessage("الاسم الكامل"),
+        "loginText": MessageLookupByLibrary.simpleMessage(
+            "سجّل الدخول لمواصلة إدارة سير عملك \nومهامك اليومية."),
         "nameHint": MessageLookupByLibrary.simpleMessage("ادخل اسمك بالكامل"),
         "passConfirmHint":
             MessageLookupByLibrary.simpleMessage("أعد كتابة كلمة المرور"),
@@ -33,6 +35,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordHint":
             MessageLookupByLibrary.simpleMessage("ادخل كلمة المرور"),
         "password_confirmation":
-            MessageLookupByLibrary.simpleMessage("تأكيد كلمة المرور")
+            MessageLookupByLibrary.simpleMessage("تأكيد كلمة المرور"),
+        "welcome": MessageLookupByLibrary.simpleMessage("أهلاً بك")
       };
 }

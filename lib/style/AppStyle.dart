@@ -10,12 +10,20 @@ class AppStyle {
      secondary: ColorManager.secondaryColor),
      useMaterial3: true,
      textTheme: TextTheme(
+       headlineLarge: TextStyle(
+         fontSize: 24.sp,
+         fontWeight: FontWeight.bold,
+         color: Colors.black,
+       ),
        labelMedium: TextStyle(
          fontSize: 20.sp,
          fontWeight: FontWeight.bold,
          color: Colors.black,
-
-       )
+       ),labelSmall: TextStyle(
+         fontSize: 20.sp,
+         fontWeight: FontWeight.w600,
+         color: ColorManager.textColor,
+       ),
      ),
  inputDecorationTheme: InputDecorationTheme(
    floatingLabelStyle: TextStyle(

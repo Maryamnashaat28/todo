@@ -6,5 +6,7 @@
   "password_confirmation": "تأكيد كلمة المرور",
   "emailHint": "ادخل البريد الإلكتروني",
   "passwordHint": "ادخل كلمة المرور",
-  "passConfirmHint": "أعد كتابة كلمة المرور"
+  "passConfirmHint": "أعد كتابة كلمة المرور",
+  "welcome": "أهلاً بك",
+  "loginText": "سجّل الدخول لمواصلة إدارة سير عملك \nومهامك اليومية."
 }

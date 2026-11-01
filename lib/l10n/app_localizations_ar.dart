@@ -32,4 +32,11 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get password_confirmation => 'تأكيد كلمة المرور';
+
+  @override
+  String get welcome => 'أهلاً بك';
+
+  @override
+  String get loginText =>
+      'سجّل الدخول لمواصلة إدارة سير عملك \nومهامك اليومية.';
 }

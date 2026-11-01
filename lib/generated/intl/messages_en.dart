@@ -26,6 +26,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "emailHint":
             MessageLookupByLibrary.simpleMessage("Enter your Email Address"),
         "full_name": MessageLookupByLibrary.simpleMessage("Full Name"),
+        "loginText": MessageLookupByLibrary.simpleMessage(
+            "Log in to continue managing your daily\nflow and tasks."),
         "nameHint":
             MessageLookupByLibrary.simpleMessage("Enter your full name"),
         "passConfirmHint":
@@ -34,6 +36,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordHint":
             MessageLookupByLibrary.simpleMessage("Enter your password"),
         "password_confirmation":
-            MessageLookupByLibrary.simpleMessage("Password Confirmation")
+            MessageLookupByLibrary.simpleMessage("Password Confirmation"),
+        "welcome": MessageLookupByLibrary.simpleMessage("Welcome back")
       };
 }

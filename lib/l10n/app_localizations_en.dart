@@ -32,4 +32,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get password_confirmation => 'Password Confirmation';
+
+  @override
+  String get welcome => 'Welcome back';
+
+  @override
+  String get loginText =>
+      'Log in to continue managing your daily\nflow and tasks.';
 }

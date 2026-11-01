@@ -6,5 +6,7 @@
   "passwordHint": "Enter your password",
   "passConfirmHint": "Confirm your password",
   "full_name": "Full Name",
-  "password_confirmation": "Password Confirmation"
+  "password_confirmation": "Password Confirmation",
+  "welcome": "Welcome back",
+  "loginText": "Log in to continue managing your daily\nflow and tasks."
 }

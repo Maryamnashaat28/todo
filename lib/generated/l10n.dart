@@ -129,6 +129,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Welcome back`
+  String get welcome {
+    return Intl.message(
+      'Welcome back',
+      name: 'welcome',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Log in to continue managing your daily\nflow and tasks.`
+  String get loginText {
+    return Intl.message(
+      'Log in to continue managing your daily\nflow and tasks.',
+      name: 'loginText',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

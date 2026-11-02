@@ -11,17 +11,27 @@ class AppStyle {
      useMaterial3: true,
      textTheme: TextTheme(
        headlineLarge: TextStyle(
-         fontSize: 24.sp,
+         fontSize: 44.sp,
          fontWeight: FontWeight.bold,
          color: Colors.black,
+       ),titleLarge: TextStyle(
+       fontSize: 30.sp,
+       fontWeight: FontWeight.bold,
+       color: Colors.white,
+
+     ),
+       bodyMedium: TextStyle(
+         fontSize: 22.sp,
+         fontWeight: FontWeight.w500,
+         color: ColorManager.primaryColor,
        ),
        labelMedium: TextStyle(
          fontSize: 20.sp,
-         fontWeight: FontWeight.bold,
+        // fontWeight: FontWeight.bold,
          color: Colors.black,
        ),labelSmall: TextStyle(
-         fontSize: 20.sp,
-         fontWeight: FontWeight.w600,
+         fontSize: 22.sp,
+         fontWeight: FontWeight.w400,
          color: ColorManager.textColor,
        ),
      ),
@@ -48,7 +58,7 @@ class AppStyle {
     hintStyle: TextStyle(
       color: ColorManager.textColor,
       fontSize: 16.sp,
-      fontWeight: FontWeight.w600
+     // fontWeight: FontWeight.w600
     ),
    //lma ykon fi validation error
    errorBorder: OutlineInputBorder(
@@ -59,7 +69,6 @@ class AppStyle {
    border: OutlineInputBorder(
        borderSide:BorderSide.none,
       borderRadius: BorderRadius.all(Radius.circular(18.r)),
-
    ),
    contentPadding: REdgeInsets.all(23),
 errorStyle: TextStyle(

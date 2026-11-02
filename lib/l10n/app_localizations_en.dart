@@ -37,6 +37,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String get welcome => 'Welcome back';
 
   @override
-  String get loginText =>
+  String get loginHeader =>
       'Log in to continue managing your daily\nflow and tasks.';
+
+  @override
+  String get signupHeader =>
+      'Join FlowDo to organize your daily priorities and\nstreamline your workflow.';
+
+  @override
+  String get login => 'Log In';
+
+  @override
+  String get signup => 'Sign up';
+
+  @override
+  String get create_account => 'Create Account';
+
+  @override
+  String get signInTxt => 'Already have an account?';
+
+  @override
+  String get signUpTxt => 'Don\'t have an account?';
 }

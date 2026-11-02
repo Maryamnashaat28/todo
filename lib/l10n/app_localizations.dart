@@ -152,11 +152,47 @@ abstract class AppLocalizations {
   /// **'Welcome back'**
   String get welcome;
 
-  /// No description provided for @loginText.
+  /// No description provided for @loginHeader.
   ///
   /// In en, this message translates to:
   /// **'Log in to continue managing your daily\nflow and tasks.'**
-  String get loginText;
+  String get loginHeader;
+
+  /// No description provided for @signupHeader.
+  ///
+  /// In en, this message translates to:
+  /// **'Join FlowDo to organize your daily priorities and\nstreamline your workflow.'**
+  String get signupHeader;
+
+  /// No description provided for @login.
+  ///
+  /// In en, this message translates to:
+  /// **'Log In'**
+  String get login;
+
+  /// No description provided for @signup.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign up'**
+  String get signup;
+
+  /// No description provided for @create_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Create Account'**
+  String get create_account;
+
+  /// No description provided for @signInTxt.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account?'**
+  String get signInTxt;
+
+  /// No description provided for @signUpTxt.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account?'**
+  String get signUpTxt;
 }
 
 class _AppLocalizationsDelegate

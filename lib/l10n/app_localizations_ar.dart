@@ -37,6 +37,25 @@ class AppLocalizationsAr extends AppLocalizations {
   String get welcome => 'أهلاً بك';
 
   @override
-  String get loginText =>
-      'سجّل الدخول لمواصلة إدارة سير عملك \nومهامك اليومية.';
+  String get loginHeader =>
+      'Log in to continue managing your daily\nflow and tasks.';
+
+  @override
+  String get signupHeader =>
+      'Join FlowDo to organize your daily priorities and\nstreamline your workflow.';
+
+  @override
+  String get login => 'تسجيل دخول ';
+
+  @override
+  String get signup => 'إنشاء حساب';
+
+  @override
+  String get create_account => 'إنشاء حساب';
+
+  @override
+  String get signInTxt => 'لديك حساب بالفعل؟';
+
+  @override
+  String get signUpTxt => 'ليس لديك حساب؟';
 }

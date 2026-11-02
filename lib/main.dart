@@ -23,18 +23,17 @@ class MyApp extends StatelessWidget {
           AppLocalizations.delegate,
             ...GlobalMaterialLocalizations.delegates,
           ],
-      supportedLocales: [
+      supportedLocales:[
         Locale("en"),
-        Locale("ar")
+        Locale("ar"),
       ],
-      locale: Locale("ar"),
+      locale: Locale("en"),
       title: 'Flutter Demo',
       theme: AppStyle.lightTheme,
-   initialRoute: Routes.registerRoute,
+   initialRoute: Routes.loginRoute,
    routes: {
 Routes.loginRoute:(_)=>LoginScreen(),
      Routes.registerRoute:(_)=>RegisterScreen(),
-
    },
    //   home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );

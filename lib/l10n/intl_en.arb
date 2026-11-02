@@ -8,5 +8,11 @@
   "full_name": "Full Name",
   "password_confirmation": "Password Confirmation",
   "welcome": "Welcome back",
-  "loginText": "Log in to continue managing your daily\nflow and tasks."
+  "loginHeader": "Log in to continue managing your daily\nflow and tasks.",
+  "signupHeader": "Join FlowDo to organize your daily priorities and\nstreamline your workflow.",
+  "login": "Log In",
+  "signup": "Sign up",
+  "create_account": "Create Account",
+  "signInTxt":"Already have an account?",
+  "signUpTxt":"Don't have an account?"
 }

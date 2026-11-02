@@ -22,11 +22,14 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "create_account":
+            MessageLookupByLibrary.simpleMessage("Create Account"),
         "email": MessageLookupByLibrary.simpleMessage("Email Address"),
         "emailHint":
             MessageLookupByLibrary.simpleMessage("Enter your Email Address"),
         "full_name": MessageLookupByLibrary.simpleMessage("Full Name"),
-        "loginText": MessageLookupByLibrary.simpleMessage(
+        "login": MessageLookupByLibrary.simpleMessage("Log In"),
+        "loginHeader": MessageLookupByLibrary.simpleMessage(
             "Log in to continue managing your daily\nflow and tasks."),
         "nameHint":
             MessageLookupByLibrary.simpleMessage("Enter your full name"),
@@ -37,6 +40,13 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enter your password"),
         "password_confirmation":
             MessageLookupByLibrary.simpleMessage("Password Confirmation"),
+        "signInTxt":
+            MessageLookupByLibrary.simpleMessage("Already have an account?"),
+        "signUpTxt":
+            MessageLookupByLibrary.simpleMessage("Don\'t have an account?"),
+        "signup": MessageLookupByLibrary.simpleMessage("Sign up"),
+        "signupHeader": MessageLookupByLibrary.simpleMessage(
+            "Join FlowDo to organize your daily priorities and\nstreamline your workflow."),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome back")
       };
 }

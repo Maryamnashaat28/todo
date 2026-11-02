@@ -141,10 +141,70 @@ class S {
   }
 
   /// `Log in to continue managing your daily\nflow and tasks.`
-  String get loginText {
+  String get loginHeader {
     return Intl.message(
       'Log in to continue managing your daily\nflow and tasks.',
-      name: 'loginText',
+      name: 'loginHeader',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Join FlowDo to organize your daily priorities and\nstreamline your workflow.`
+  String get signupHeader {
+    return Intl.message(
+      'Join FlowDo to organize your daily priorities and\nstreamline your workflow.',
+      name: 'signupHeader',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Log In`
+  String get login {
+    return Intl.message(
+      'Log In',
+      name: 'login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign up`
+  String get signup {
+    return Intl.message(
+      'Sign up',
+      name: 'signup',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create Account`
+  String get create_account {
+    return Intl.message(
+      'Create Account',
+      name: 'create_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account?`
+  String get signInTxt {
+    return Intl.message(
+      'Already have an account?',
+      name: 'signInTxt',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't have an account?`
+  String get signUpTxt {
+    return Intl.message(
+      'Don\'t have an account?',
+      name: 'signUpTxt',
       desc: '',
       args: [],
     );
